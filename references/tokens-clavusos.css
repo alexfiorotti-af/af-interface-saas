@@ -1,0 +1,17 @@
+/* ClavusOS — tokens "Porcelana & Esmalte" (marca "Cereja & Porcelana", D017).
+   --cor é a cor do studio (white-label); o resto não muda. */
+:root{
+  --cor:#A8174A;                                   /* Cereja: o esmalte da ClavusOS */
+  --cor-f:color-mix(in oklch,var(--cor) 12%,white); /* Pétala: etiquetas e botões de apoio */
+  --cor-m:color-mix(in oklch,var(--cor) 40%,white);
+  --porcelana:#F7F2EF; --papel:#FFFFFF; --nude:#EFE7E2; --linha:#EDE4DF;
+  --ink:#2D1B2E; --suave:#6B5A66;
+  --verniz:#8A620F;        /* texto do saldo do dia */
+  --verniz-gota:#B8892E;   /* só a gota do símbolo */
+  --ok:#22684A; --ok-f:#E3F1EA; --alerta:#7E5210; --alerta-f:#F6ECDD; --erro:#A92D42; --erro-f:#F8E3E6;
+  --disp:"Fraunces",Georgia,serif;                 /* font-variation-settings:"SOFT" 100 */
+  --txt:"Instrument Sans","Segoe UI",system-ui,sans-serif;
+  --raio-cartao:22px; --raio-controle:14px; --raio-pilula:999px;
+  --sombra-flutua:0 10px 24px rgba(45,27,46,.22);
+}
+/* Google Fonts: family=Fraunces:opsz,wght,SOFT@9..144,400..600,0..100&family=Instrument+Sans:wght@400;500;600 */

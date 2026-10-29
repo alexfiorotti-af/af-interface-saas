@@ -1,0 +1,27 @@
+{
+  "nome": "ClavusOS — Porcelana & Esmalte",
+  "versao": "1.0.0",
+  "decisao": "D017 (29/10/2026)",
+  "cores": {
+    "cereja": { "hex": "#A8174A", "uso": "marca e ação; acento padrão (white-label troca)", "contraste_branco": 7.3 },
+    "cerejaClara": { "hex": "#E5739A", "uso": "símbolo sobre ameixa" },
+    "petala": { "hex": "#F6E1E8", "uso": "cereja a 12% no branco" },
+    "ameixa": { "hex": "#2D1B2E", "uso": "texto, menu do notebook, fundo escuro", "contraste_porcelana": 14.5 },
+    "ameixaSuave": { "hex": "#6B5A66", "uso": "texto de apoio", "contraste_porcelana": 5.8 },
+    "porcelana": { "hex": "#F7F2EF", "uso": "fundo" },
+    "papel": { "hex": "#FFFFFF", "uso": "cartões" },
+    "nude": { "hex": "#EFE7E2", "uso": "apoio" },
+    "verniz": { "hex": "#B8892E", "uso": "só a gota" },
+    "vernizTexto": { "hex": "#8A620F", "uso": "saldo do dia" },
+    "vernizClaro": { "hex": "#E3C27A", "uso": "gota sobre escuro" },
+    "ok": { "hex": "#22684A" }, "alerta": { "hex": "#7E5210" }, "erro": { "hex": "#A92D42" }
+  },
+  "acentosTestados": { "esmalte": "#C8246A", "cereja": "#A8174A", "malva": "#86476C", "salvia": "#3E6A5A" },
+  "tipografia": {
+    "display": { "familia": "Fraunces", "eixos": { "SOFT": 100 }, "pesos": [400, 500] },
+    "texto": { "familia": "Instrument Sans", "pesos": [400, 500, 600] },
+    "escala": { "titulo": 34, "valor": 28, "secao": 16.5, "corpo": 15.5, "apoio": 13, "aba": 11.5 }
+  },
+  "raios": { "cartao": 22, "controle": 14, "pilula": 999 },
+  "toqueMinimo": 44
+}
